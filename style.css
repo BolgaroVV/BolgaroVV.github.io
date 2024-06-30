@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #ffdd55;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/static/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('./fonts/static/Montserrat-ExtraBold.ttf')format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'MontserratSemiBold';
+    src: url('./fonts/static/Montserrat-SemiBold.ttf');
+}
+
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: relative;
+}
+
+#icon {
+    width: 70px;
+    height: 70px;
+    padding: 10px 10px 10px 20px;
+}
+
+.menu_tabs {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+
+.menu_tabs_tab {
+    color: white;
+    font-family: 'Inter';
+    font: 2em Inter;
+    margin-right: 80px;
+}
+
+.last_el {
+    margin: 0;
+}
+
+
+.description {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+}
+
+.description_text {
+    font-family: 'MontserratExtraBold';
+    font-size: 90px;
+}
+
+.description_job {
+    font-family: 'MontserratSemiBold';
+    font-size: 30px;
+    color: #474A57;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5%;
+}
+
+.description_button {
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'MontserratSemiBold';
+    font-size: 45px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.description_button_bg {
+    background-color: #00c6ae;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 20px;
+    top: 10px;
+    left: 10px;
+}
+
+.profile     {
+    display: flex;
+    position: absolute;
+    border: 3px solid black;
+    top: 50%;
+    right: 20%;
+    transform: translate(0, -50%);
+    width: 25%
+}
+
+#profile_icon {
+    
+}
